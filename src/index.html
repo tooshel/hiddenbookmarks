@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Hidden Bookmarks · Romance reviews &amp; book promotion</title>
+<meta name="description" content="Honest ARC and audiobook reviews, release blitzes and cover reveals for romance authors. Send me your book.">
+<link rel="canonical" href="https://hiddenbookmarks.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hiddenbookmarks.com/">
+<meta property="og:title" content="The Hidden Bookmarks">
+<meta property="og:description" content="Honest ARC and audiobook reviews, release blitzes and cover reveals for romance authors.">
+<meta property="og:image" content="https://hiddenbookmarks.com/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#b3144f">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Ballet:opsz@16..72&family=Literata:ital,opsz,wght@0,7..72,400..900;1,7..72,400..700&display=swap">
+<link rel="stylesheet" href="style.css?v={{VERSION}}">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#latest">Skip to the books</a>
+
+<div class="bar" id="bar" aria-hidden="true">
+  <a class="bar__mark" href="#top" tabindex="-1">The Hidden Bookmarks</a>
+  <a class="btn btn--small" href="#contact" tabindex="-1">Send me your book</a>
+</div>
+
+<div class="stage" id="top">
+  <div class="stage__frame">
+
+
+    <header class="cover" id="cover">
+      <div class="cover__frame">
+        <div class="cover__copy">
+          <h1 class="cover__title"><span class="cover__the">The</span> Hidden Bookmarks</h1>
+          <p class="cover__tagline">Uncovering your next five-star read, living for the plot (and the spice).</p>
+          <p class="cover__services">ARC reviews <i></i> Audiobook reviews <i></i> Release blitzes <i></i> Cover reveals</p>
+          <div class="cover__actions">
+            <a class="btn" href="#contact">Send me your book <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a class="link-quiet" href="https://www.instagram.com/the_hiddenbookmarks/">@the_hiddenbookmarks</a>
+          </div>
+        </div>
+        <div class="cover__window" id="window">
+          <img src="img/books/{{FEATURE_IMG}}" alt="" width="512" height="640">
+        </div>
+        <a class="flash" href="#contact" aria-label="Now booking ARCs and ALCs. Get in touch.">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <path id="flash-ring" d="M100 100 m-72 0 a72 72 0 1 1 144 0 a72 72 0 1 1 -144 0" fill="none"/>
+            <polygon class="flash__burst" points="{{BURST}}"/>
+            <text><textPath href="#flash-ring" startOffset="0">NOW BOOKING · NOW BOOKING · NOW BOOKING ·</textPath></text>
+            <text class="flash__big" x="100" y="96" text-anchor="middle">ARCs</text>
+            <text class="flash__small" x="100" y="122" text-anchor="middle">&amp; ALCs</text>
+          </svg>
+        </a>
+        <svg class="seal" viewBox="0 0 120 120" aria-hidden="true">
+          <circle cx="60" cy="60" r="56"/><circle cx="60" cy="60" r="47"/>
+          <path id="seal-ring" d="M60 60 m-40 0 a40 40 0 1 1 80 0 a40 40 0 1 1 -80 0" fill="none" stroke="none"/>
+          <text><textPath href="#seal-ring">HONEST REVIEWS · ROMANCE ONLY ·</textPath></text>
+          <path class="seal__ribbon" d="M50 38h20v44l-10-8-10 8z"/>
+        </svg>
+        <button class="opener" type="button" id="opener" hidden>
+          Open the cover <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="interior" aria-labelledby="inside-title">
+      <div class="interior__copy">
+        <h2 id="inside-title" class="interior__title"><span class="script">The</span> latest six</h2>
+        <p class="interior__note">Fresh off my feed, {{UPDATED}}. Every one links to the post.</p>
+        <a class="cue" href="#latest">Read what I said about them <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      </div>
+      <div class="fan" id="fan">
+{{FAN}}
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<main>
+  <section class="latest" id="latest" aria-labelledby="latest-title">
+    <h2 id="latest-title" class="section-title">What I said about them</h2>
+    <ol class="shelf">
+{{LIST}}
+    </ol>
+    <p class="latest__more"><a class="link-quiet" href="https://www.instagram.com/the_hiddenbookmarks/">All the reviews live on Instagram <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+  </section>
+
+  <section class="services" id="services" aria-labelledby="services-title">
+    <h2 id="services-title" class="section-title">Four ways I’ll love your book out loud</h2>
+    <div class="blurbs">
+      <article class="blurb">
+        <h3>ARC reviews</h3>
+        <p>I read your advance copy and post a full, honest review: the tropes, the heat, the scene that got me. Each one comes with a reel.</p>
+        <p class="blurb__recent">Recently: <em>Rules &amp; Reservations</em>, <em>Snow Strings Attached</em>, <em>Hometown Halftime</em></p>
+      </article>
+      <article class="blurb">
+        <h3>Audiobook reviews</h3>
+        <p>Send the ALC and I’ll review the performance as well as the story: the narrators, the duet chemistry, how the spicy scenes land in your ears.</p>
+        <p class="blurb__recent">Recently: <em>Sweet Salvation</em>, <em>Campus Fake</em></p>
+      </article>
+      <article class="blurb">
+        <h3>Release blitzes</h3>
+        <p>Launch-day posts with your blurb, tropes and buy links, so your book is on my feed the day it goes live.</p>
+        <p class="blurb__recent">Recently: <em>Guarded</em>, <em>Carved in the Shadows</em></p>
+      </article>
+      <article class="blurb">
+        <h3>Cover reveals</h3>
+        <p>Countdowns and reveal-day posts that give a new cover the drumroll it deserves.</p>
+        <p class="blurb__recent">Recently: <em>Through the Gathering Storm</em>, <em>Watershed</em></p>
+      </article>
+    </div>
+    <p class="vow">Every word is mine. <span>No AI, ever.</span></p>
+  </section>
+
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="about__portrait">
+      <img src="img/avatar.jpg" alt="The reader behind The Hidden Bookmarks, smiling in front of her bookshelves" width="150" height="150">
+    </div>
+    <div class="about__copy">
+      <h2 id="about-title" class="section-title">The reader behind the bookmarks</h2>
+      <p class="about__lede">I’m a romance reader with a phone full of ARCs and a heart full of book boyfriends. The Hidden Bookmarks is where I tell people exactly why they need to read your book next.</p>
+      <p>My reviews are honest, because readers can tell when they aren’t. I’m usually listening to Taylor Swift or reading an ARC, and sometimes both.</p>
+      <h3 class="about__sub">Where you’ll find me lately</h3>
+      <ul class="tropes tropes--big">
+        <li>Hockey romance</li><li>Small town</li><li>Why choose</li><li>Fake dating</li><li>Friends to lovers</li><li>Single dads</li><li>MC romance</li><li>Holiday romance</li><li>Romantic suspense</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title" class="contact__title"><span class="script">Send me</span> your book.</h2>
+    <div class="contact__body">
+      <p class="contact__lede">ARCs, ALCs, release blitzes and cover reveals. Email me and include:</p>
+      <ul class="checklist">
+        <li>Title, author and series</li>
+        <li>Release date</li>
+        <li>Format: ebook, audiobook or print</li>
+        <li>Subgenre, tropes and spice level</li>
+        <li>What you’d like: review, blitz or reveal</li>
+      </ul>
+      <div class="contact__actions">
+        <a class="btn btn--big" href="mailto:hello@hiddenbookmarks.com?subject=Book%20promo%20request%3A%20">
+          <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg>
+          hello@hiddenbookmarks.com
+        </a>
+        <a class="link-quiet" href="https://www.instagram.com/the_hiddenbookmarks/">
+          <svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+          Or DM me on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="spine">
+  <svg class="barcode" viewBox="0 0 {{BARCODE_W}} 40" aria-hidden="true" preserveAspectRatio="none">{{BARCODE}}</svg>
+  <p class="spine__mark">The Hidden Bookmarks</p>
+  <p class="spine__links">
+    <a href="https://www.instagram.com/the_hiddenbookmarks/">Instagram</a>
+    <a href="https://www.threads.com/@the_hiddenbookmarks">Threads</a>
+    <a href="mailto:hello@hiddenbookmarks.com">Email</a>
+  </p>
+  <p class="spine__fine">© {{YEAR}} The Hidden Bookmarks. Cover art belongs to the authors and their designers.</p>
+</footer>
+
+<script src="site.js?v={{VERSION}}" defer></script>
+</body>
+</html>
