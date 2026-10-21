@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T03:39:48.638Z",
+  "title": "Design System: The Hidden Bookmarks",
+  "extensions": {
+    "colorMeta": {
+      "raspberry": {
+        "role": "primary",
+        "displayName": "Raspberry Cover Stock",
+        "canonical": "#b3144f",
+        "oklch": "oklch(49.9% 0.190 7.5)",
+        "tonalRamp": [
+          "#2a0004",
+          "#510018",
+          "#7a0031",
+          "#a5204c",
+          "#d73f6b",
+          "#fa7191",
+          "#ff9fb9",
+          "#ffc9df"
+        ]
+      },
+      "raspberry-deep": {
+        "role": "primary",
+        "displayName": "Deep Raspberry",
+        "canonical": "#870b3a",
+        "oklch": "oklch(40.5% 0.155 7.3)",
+        "tonalRamp": [
+          "#250005",
+          "#4a001b",
+          "#711934",
+          "#9a3350",
+          "#c95170",
+          "#ec7d95",
+          "#ffa8bc",
+          "#ffd1e2"
+        ]
+      },
+      "foil": {
+        "role": "secondary",
+        "displayName": "Gold Foil",
+        "canonical": "#f0c46a",
+        "oklch": "oklch(84.1% 0.120 83.7)",
+        "tonalRamp": [
+          "#190600",
+          "#371e00",
+          "#573a00",
+          "#7a5700",
+          "#a2790e",
+          "#c49f50",
+          "#e8c682",
+          "#ffebb0"
+        ]
+      },
+      "foil-text": {
+        "role": "secondary",
+        "displayName": "Foil Text",
+        "canonical": "#f8d58a",
+        "oklch": "oklch(88.6% 0.101 85.4)",
+        "tonalRamp": [
+          "#160700",
+          "#332000",
+          "#533c00",
+          "#755913",
+          "#9c7b2f",
+          "#bea160",
+          "#e2c78f",
+          "#ffecba"
+        ]
+      },
+      "foil-deep": {
+        "role": "secondary",
+        "displayName": "Burnished Foil",
+        "canonical": "#a77a25",
+        "oklch": "oklch(61.0% 0.113 79.0)",
+        "tonalRamp": [
+          "#190500",
+          "#381d00",
+          "#583800",
+          "#7c5600",
+          "#a47721",
+          "#c69d58",
+          "#eac488",
+          "#ffe9b4"
+        ]
+      },
+      "marigold": {
+        "role": "tertiary",
+        "displayName": "Marigold",
+        "canonical": "#ffc93c",
+        "oklch": "oklch(86.1% 0.159 86.4)",
+        "tonalRamp": [
+          "#1b0400",
+          "#3b1c00",
+          "#5c3700",
+          "#805500",
+          "#a97600",
+          "#cb9d19",
+          "#eec564",
+          "#ffea97"
+        ]
+      },
+      "marigold-hi": {
+        "role": "tertiary",
+        "displayName": "Marigold Light",
+        "canonical": "#ffd96e",
+        "oklch": "oklch(89.7% 0.133 90.0)",
+        "tonalRamp": [
+          "#180700",
+          "#352000",
+          "#553b00",
+          "#775900",
+          "#9f7b00",
+          "#c1a143",
+          "#e5c879",
+          "#ffeda8"
+        ]
+      },
+      "aubergine": {
+        "role": "neutral",
+        "displayName": "Aubergine Interior",
+        "canonical": "#2a0e2b",
+        "oklch": "oklch(22.2% 0.065 326.2)",
+        "tonalRamp": [
+          "#130514",
+          "#2f1c30",
+          "#4e364e",
+          "#6f526f",
+          "#957395",
+          "#b898b8",
+          "#ddbfdd",
+          "#ffe5ff"
+        ]
+      },
+      "aubergine-2": {
+        "role": "neutral",
+        "displayName": "Aubergine Glow",
+        "canonical": "#3b1541",
+        "oklch": "oklch(27.6% 0.089 322.0)",
+        "tonalRamp": [
+          "#150318",
+          "#321935",
+          "#513256",
+          "#734e78",
+          "#996ea0",
+          "#bc94c2",
+          "#e1bce6",
+          "#ffe2ff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Spine Ink",
+        "canonical": "#1c0a1d",
+        "oklch": "oklch(18.2% 0.046 325.3)",
+        "tonalRamp": [
+          "#110711",
+          "#2c1f2c",
+          "#4a394a",
+          "#6a566a",
+          "#8f778f",
+          "#b29cb3",
+          "#d7c3d8",
+          "#fae8fa"
+        ]
+      },
+      "blush": {
+        "role": "neutral",
+        "displayName": "Blush Paper",
+        "canonical": "#fff0f5",
+        "oklch": "oklch(96.8% 0.017 355.1)",
+        "tonalRamp": [
+          "#0f090b",
+          "#292224",
+          "#463d40",
+          "#655a5e",
+          "#897c81",
+          "#ada1a5",
+          "#d2c7cb",
+          "#f6ebef"
+        ]
+      },
+      "blush-2": {
+        "role": "neutral",
+        "displayName": "Petal",
+        "canonical": "#ffd0df",
+        "oklch": "oklch(90.2% 0.056 357.2)",
+        "tonalRamp": [
+          "#16050b",
+          "#331c24",
+          "#533640",
+          "#75525e",
+          "#9c7280",
+          "#c098a5",
+          "#e4bfcb",
+          "#ffe4ef"
+        ]
+      },
+      "mauve": {
+        "role": "neutral",
+        "displayName": "Mauve",
+        "canonical": "#e9b3c8",
+        "oklch": "oklch(82.2% 0.068 353.5)",
+        "tonalRamp": [
+          "#17040c",
+          "#351a26",
+          "#563342",
+          "#794f60",
+          "#a16f83",
+          "#c495a7",
+          "#e8bdcd",
+          "#ffe2f1"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Cover Script",
+        "purpose": "The cover title only. Ballet in foil, opsz pinned at 16, soft raspberry-dark text shadow."
+      },
+      "script-accent": {
+        "displayName": "Script Accent",
+        "purpose": "Foil Ballet lead-ins fused to Literata headings, and the wordmark in the bar and on the spine."
+      },
+      "headline": {
+        "displayName": "Paperback Black",
+        "purpose": "Section titles and the interior, contact and vow headings. Literata 900 with tight tracking."
+      },
+      "title": {
+        "displayName": "Book Title",
+        "purpose": "Book titles and service headings."
+      },
+      "tagline": {
+        "displayName": "Italic Hook",
+        "purpose": "Cover tagline and bylines."
+      },
+      "quote": {
+        "displayName": "Pull Quote",
+        "purpose": "Review excerpts under a 3.6rem foil opening quote mark."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running copy, measure 46-66ch, optical sizing auto."
+      },
+      "label": {
+        "displayName": "Spine Caps",
+        "purpose": "Condensed Archivo caps (font-stretch 78-86%) for the service line, ribbon tags, sub-heads, action links and series names."
+      },
+      "button": {
+        "displayName": "Button Caps",
+        "purpose": "Pill button labels, font-stretch 88%."
+      }
+    },
+    "shadows": [
+      {
+        "name": "print-lift",
+        "value": "0 18px 30px -12px rgba(8, 0, 10, .75), 0 2px 6px rgba(8, 0, 10, .4)",
+        "purpose": "Fan cards at rest."
+      },
+      {
+        "name": "print-lift-hover",
+        "value": "0 30px 40px -16px rgba(8, 0, 10, .85), 0 2px 6px rgba(8, 0, 10, .4)",
+        "purpose": "Fan card lifted on hover or focus."
+      },
+      {
+        "name": "shelf-lift",
+        "value": "0 22px 34px -16px rgba(8, 0, 10, .8)",
+        "purpose": "Book art on the shelf."
+      },
+      {
+        "name": "button-lift",
+        "value": "0 12px 24px -12px rgba(28, 0, 14, .7), 0 2px 0 rgba(255, 255, 255, .35) inset",
+        "purpose": "Pill buttons at rest. The inset line is a top gloss."
+      },
+      {
+        "name": "button-lift-hover",
+        "value": "0 18px 30px -14px rgba(28, 0, 14, .8), 0 2px 0 rgba(255, 255, 255, .35) inset",
+        "purpose": "Pill buttons on hover."
+      },
+      {
+        "name": "foil-bevel",
+        "value": "inset 0 0 0 6px var(--raspberry), inset 0 0 0 7px rgba(240, 196, 106, .55)",
+        "purpose": "Double-rule foil frame inside a 2px foil border. Swap the 6px ring for the local stock."
+      },
+      {
+        "name": "window-bevel",
+        "value": "inset 0 0 0 3px var(--raspberry-deep), inset 0 0 0 5px rgba(240, 196, 106, .6), 0 0 0 2px var(--raspberry-deep)",
+        "purpose": "The die-cut arch's bevel inside its 6px foil border."
+      },
+      {
+        "name": "portrait-ring",
+        "value": "0 0 0 6px var(--aubergine), 0 0 0 7px rgba(240, 196, 106, .5), 0 24px 40px -18px rgba(0, 0, 0, .8)",
+        "purpose": "Outer foil ring and lift for the round portrait."
+      },
+      {
+        "name": "tag-drop",
+        "value": "0 6px 12px -6px rgba(8, 0, 10, .7)",
+        "purpose": "Ribbon tag pinned to a cover."
+      },
+      {
+        "name": "sticker-drop",
+        "value": "drop-shadow(0 8px 12px rgba(50, 0, 20, .45))",
+        "purpose": "Filter on the starburst flash so the shadow follows its silhouette."
+      },
+      {
+        "name": "title-glow",
+        "value": "text-shadow: 0 6px 22px rgba(70, 0, 25, .5)",
+        "purpose": "Cover script only."
+      },
+      {
+        "name": "bar-drop",
+        "value": "0 10px 24px -14px rgba(0, 0, 0, .7)",
+        "purpose": "Sticky bar."
+      },
+      {
+        "name": "hinge-cast",
+        "value": "30px 0 60px -20px rgba(10, 0, 10, calc(.6 * var(--p)))",
+        "purpose": "Dynamic shadow of the swinging cover. Strength follows hinge progress."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "The single easing curve for lifts, slides and reveals."
+      },
+      {
+        "name": "color",
+        "value": "200ms",
+        "purpose": "Color and underline changes on links and button fills."
+      },
+      {
+        "name": "lift",
+        "value": "350ms ease-out",
+        "purpose": "Button lift and arrow nudge."
+      },
+      {
+        "name": "card",
+        "value": "450ms ease-out",
+        "purpose": "Fan card lift and sticky bar slide."
+      },
+      {
+        "name": "settle",
+        "value": "500ms ease-out",
+        "purpose": "Shelf cover straightening and flash rotation."
+      },
+      {
+        "name": "nudge",
+        "value": "2.4s ease-out infinite, 5px down at 30%",
+        "purpose": "Opener arrow."
+      },
+      {
+        "name": "hinge",
+        "value": "scroll-scrubbed: rotateY(p * -104deg) at origin 0% 50%, perspective 2400px, brightness(1 - p * .45), stage 195svh",
+        "purpose": "The signature cover swing. It is turned off under reduced motion, without mask support, or below 560px height or 340px width."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none",
+        "purpose": "Applies to everything under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "shelf-single",
+        "value": "1100px"
+      },
+      {
+        "name": "stack",
+        "value": "860px"
+      },
+      {
+        "name": "compact",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Glossy marigold pill for the main action, with a trailing arrow.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Send me your book <svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:.6em;background:var(--marigold, #ffc93c);color:var(--ink, #1c0a1d);font:760 .95rem/1 Archivo,\"Arial Narrow\",sans-serif;font-stretch:88%;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;padding:1.05em 1.6em;border-radius:999px;box-shadow:0 12px 24px -12px rgba(28,0,14,.7),0 2px 0 rgba(255,255,255,.35) inset;transition:transform .35s cubic-bezier(.16,1,.3,1),background-color .2s,box-shadow .35s cubic-bezier(.16,1,.3,1)}.ds-btn:hover{background:var(--marigold-hi, #ffd96e);transform:translateY(-2px);box-shadow:0 18px 30px -14px rgba(28,0,14,.8),0 2px 0 rgba(255,255,255,.35) inset}.ds-btn:active{transform:translateY(0)}.ds-btn:focus-visible{outline:3px solid var(--blush, #fff0f5);outline-offset:3px}.ds-ico{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-btn:hover .ds-ico{transform:translateX(3px)}"
+    },
+    {
+      "name": "Big Email Button",
+      "kind": "button",
+      "refersTo": "button-big",
+      "description": "Sentence-case pill for the email address, with a leading mail icon.",
+      "html": "<a class=\"ds-btn-big\" href=\"#\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1\"/><path d=\"m3 7 9 6 9-6\"/></svg>hello@hiddenbookmarks.com</a>",
+      "css": ".ds-btn-big{display:inline-flex;align-items:center;gap:.6em;background:var(--marigold, #ffc93c);color:var(--ink, #1c0a1d);font:760 clamp(.9rem,1.6vw,1.1rem)/1 Archivo,\"Arial Narrow\",sans-serif;font-stretch:95%;letter-spacing:.02em;text-decoration:none;padding:1.1em 1.6em;border-radius:999px;box-shadow:0 12px 24px -12px rgba(28,0,14,.7),0 2px 0 rgba(255,255,255,.35) inset;transition:transform .35s cubic-bezier(.16,1,.3,1),background-color .2s}.ds-btn-big:hover{background:var(--marigold-hi, #ffd96e);transform:translateY(-2px)}.ds-btn-big:active{transform:translateY(0)}.ds-btn-big:focus-visible{outline:3px solid var(--blush, #fff0f5);outline-offset:3px}.ds-ico{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .35s cubic-bezier(.16,1,.3,1)}"
+    },
+    {
+      "name": "Action Link",
+      "kind": "custom",
+      "refersTo": "link-action",
+      "description": "Marigold condensed caps for secondary actions such as 'See the post'.",
+      "html": "<div class=\"ds-stock\"><a class=\"ds-act\" href=\"#\">See the post <svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></div>",
+      "css": ".ds-stock{background:var(--aubergine, #2a0e2b);padding:24px}.ds-act{display:inline-flex;align-items:center;gap:.45em;color:var(--marigold, #ffc93c);text-decoration:none;font:750 .8rem/1 Archivo,\"Arial Narrow\",sans-serif;font-stretch:84%;text-transform:uppercase;letter-spacing:.14em}.ds-act:hover{text-decoration:underline;text-underline-offset:.35em}.ds-act:focus-visible{outline:3px solid var(--marigold, #ffc93c);outline-offset:3px;border-radius:2px}.ds-ico{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .35s cubic-bezier(.16,1,.3,1)}.ds-act:hover .ds-ico{transform:translateX(3px)}"
+    },
+    {
+      "name": "Quiet Link",
+      "kind": "custom",
+      "refersTo": "link-quiet",
+      "description": "Blush link with a foil underline that turns marigold on hover. Sits beside a button.",
+      "html": "<div class=\"ds-cover\"><a class=\"ds-quiet\" href=\"#\">@the_hiddenbookmarks</a></div>",
+      "css": ".ds-cover{background:var(--raspberry, #b3144f);padding:24px}.ds-quiet{display:inline-flex;align-items:center;gap:.45em;color:var(--blush, #fff0f5);text-decoration:underline;text-decoration-color:var(--foil, #f0c46a);text-decoration-thickness:1px;text-underline-offset:.3em;font:600 .95rem/1.3 Archivo,\"Arial Narrow\",sans-serif;letter-spacing:.02em;transition:color .2s,text-decoration-color .2s}.ds-quiet:hover{color:var(--marigold, #ffc93c);text-decoration-color:var(--marigold, #ffc93c)}.ds-quiet:focus-visible{outline:3px solid var(--marigold, #ffc93c);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Trope Chips",
+      "kind": "chip",
+      "refersTo": "chip-trope",
+      "description": "Foil-hairline pills that label tropes. Not interactive.",
+      "html": "<div class=\"ds-stock\"><ul class=\"ds-tropes\"><li>Enemies to lovers</li><li>Vegas wedding</li><li>Single dad</li><li>Hockey</li></ul></div>",
+      "css": ".ds-stock{background:var(--aubergine, #2a0e2b);padding:24px}.ds-tropes{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}.ds-tropes li{font:600 .8rem/1 Archivo,\"Arial Narrow\",sans-serif;font-stretch:86%;letter-spacing:.03em;padding:6px 10px;border:1px solid rgba(240,196,106,.5);border-radius:999px;color:var(--blush-2, #ffd0df)}"
+    },
+    {
+      "name": "Book Entry",
+      "kind": "card",
+      "refersTo": "ribbon-tag",
+      "description": "A tilted cover with a foil ribbon tag, title, byline and series caps. No box.",
+      "html": "<div class=\"ds-stock\"><div class=\"ds-book\"><div class=\"ds-art\"><div class=\"ds-img\"></div><p class=\"ds-tag\">Audiobook review</p></div><div><h3 class=\"ds-title\">Sweet Salvation</h3><p class=\"ds-by\">by Bella Matthews <span>Love &amp; Legacy</span></p></div></div></div>",
+      "css": ".ds-stock{background:var(--aubergine, #2a0e2b);padding:32px;color:var(--blush, #fff0f5)}.ds-book{display:grid;grid-template-columns:140px 1fr;gap:24px;align-items:start}.ds-art{position:relative}.ds-img{aspect-ratio:4/5;border-radius:3px;background:linear-gradient(160deg,#5a2a6a,#b3144f);transform:rotate(-1.6deg);box-shadow:0 22px 34px -16px rgba(8,0,10,.8);transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-art:hover .ds-img{transform:rotate(0) translateY(-4px)}.ds-tag{position:absolute;left:-10px;bottom:14px;margin:0;background:var(--foil, #f0c46a);color:var(--ink, #1c0a1d);padding:6px 20px 6px 14px;font:800 .76rem/1 Archivo,\"Arial Narrow\",sans-serif;font-stretch:78%;text-transform:uppercase;letter-spacing:.14em;box-shadow:0 6px 12px -6px rgba(8,0,10,.7);clip-path:polygon(0 0,100% 0,calc(100% - 8px) 50%,100% 100%,0 100%)}.ds-title{margin:0;font:800 clamp(1.55rem,2.3vw,2.15rem)/1.05 Literata,Georgia,serif;letter-spacing:-.01em}.ds-by{margin:8px 0 0;font:italic 400 1.05rem/1.4 Literata,Georgia,serif;color:var(--mauve, #e9b3c8)}.ds-by span{display:block;margin-top:4px;font:600 .78rem/1.4 Archivo,\"Arial Narrow\",sans-serif;font-style:normal;text-transform:uppercase;letter-spacing:.12em;color:var(--foil, #f0c46a)}"
+    },
+    {
+      "name": "Sticky Bar",
+      "kind": "nav",
+      "refersTo": "nav-bar",
+      "description": "Aubergine bar with a foil script wordmark and a small marigold button. It slides in once the cover is behind you.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-mark\" href=\"#\">The Hidden Bookmarks</a><a class=\"ds-btn-sm\" href=\"#\">Send me your book</a></nav>",
+      "css": ".ds-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 24px;background:var(--aubergine, #2a0e2b);border-bottom:1px solid rgba(240,196,106,.45);box-shadow:0 10px 24px -14px rgba(0,0,0,.7)}.ds-mark{font:400 1.75rem/1 Ballet,\"Snell Roundhand\",cursive;color:var(--foil, #f0c46a);text-decoration:none}.ds-mark:focus-visible{outline:3px solid var(--marigold, #ffc93c);outline-offset:3px}.ds-btn-sm{background:var(--marigold, #ffc93c);color:var(--ink, #1c0a1d);font:760 .78rem/1 Archivo,\"Arial Narrow\",sans-serif;font-stretch:88%;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;padding:.85em 1.2em;border-radius:999px;box-shadow:0 12px 24px -12px rgba(28,0,14,.7),0 2px 0 rgba(255,255,255,.35) inset;transition:transform .35s cubic-bezier(.16,1,.3,1),background-color .2s}.ds-btn-sm:hover{background:var(--marigold-hi, #ffd96e);transform:translateY(-2px)}.ds-btn-sm:focus-visible{outline:3px solid var(--blush, #fff0f5);outline-offset:3px}"
+    },
+    {
+      "name": "Foil Frame and Arch Window",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "The cover's inset double foil frame around a die-cut arch with a beveled edge and a static fan inside (the no-hinge fallback).",
+      "html": "<div class=\"ds-cv\"><div class=\"ds-frame\"><div class=\"ds-arch\"><div class=\"ds-fan\"><span style=\"--t:-.5;--a:.5\"></span><span style=\"--t:-.3;--a:.3\"></span><span style=\"--t:-.1;--a:.1\"></span><span style=\"--t:.1;--a:.1\"></span><span style=\"--t:.3;--a:.3\"></span><span style=\"--t:.5;--a:.5\"></span></div></div></div></div>",
+      "css": ".ds-cv{background:var(--raspberry, #b3144f);padding:14px}.ds-frame{border:2px solid var(--foil, #f0c46a);box-shadow:inset 0 0 0 6px var(--raspberry, #b3144f),inset 0 0 0 7px rgba(240,196,106,.55);padding:32px;display:flex;justify-content:flex-end}.ds-arch{position:relative;width:220px;height:300px;border:6px solid var(--foil, #f0c46a);border-radius:9999px 9999px 0 0;box-shadow:inset 0 0 0 3px var(--raspberry-deep, #870b3a),inset 0 0 0 5px rgba(240,196,106,.6),0 0 0 2px var(--raspberry-deep, #870b3a);overflow:hidden;background:var(--aubergine, #2a0e2b)}.ds-fan{position:absolute;inset:0;container-type:size}.ds-fan span{position:absolute;left:50%;top:50%;width:min(52cqw,60cqh);aspect-ratio:4/5;border-radius:3px;background:linear-gradient(160deg,#ffd0df,#b3144f 60%,#3b1541);box-shadow:0 18px 30px -12px rgba(8,0,10,.75);transform-origin:50% 85%;transform:translate(-50%,-50%) translateX(calc(var(--t)*84cqw)) translateY(calc(var(--a)*min(52cqw,60cqh)*.3)) rotate(calc(var(--t)*28deg))}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Step-Back Paperback",
+    "overview": "The system is a mass-market romance paperback rendered in CSS. A drenched raspberry cover carries gold foil type and rules. Behind it sits an aubergine step-back interior, the second illustration a reader finds when they open the front cover. Sections alternate between those two stocks, raspberry and aubergine, so the page reads as cover, inside, cover, inside, and ends on a dark ink spine with a barcode. Foil is the material and marigold is the instruction. Text is pink-white, never cream.\n\nType works at paperback scale. A flourished Ballet script in foil carries the name and the romantic accents. Literata Black sets the heavy headings you would find on a back cover. Condensed Archivo caps handle the spine and sticker labels. Ornament comes from print-production devices, not decorative filler: an inset double foil frame, an arched die-cut window with a beveled edge, a starburst sticker flash, a publisher roundel, a ribbon price-tag, bookmark-shaped bullets, and a barcode. Depth is soft and physical, like paper lifting off paper.\n\nThe signature is the hinge. The cover is a die-cut front that swings open on its left spine as you scroll, and the book fan behind the window grows into the interior. With reduced motion, no JS, or no mask support, the cover just sits above the interior and a static copy of the fan fills the window.",
+    "keyCharacteristics": [
+      "Two alternating paper stocks: raspberry cover field and aubergine interior, closed by an ink spine.",
+      "Gold foil for script, rules, frames and bevels. Marigold only for actions.",
+      "Ballet script, Literata Black and condensed Archivo caps, each with a fixed job.",
+      "Print-production ornaments (frame, arch window, sticker flash, roundel, ribbon tag, barcode), all drawn in CSS or inline SVG.",
+      "Soft, diffuse drop shadows under printed matter. No hard offsets.",
+      "Small hand-placed tilts (about 1.5deg on covers, -11deg on the flash) that make it feel like a physical book."
+    ],
+    "rules": [
+      {
+        "name": "The Marigold Law",
+        "body": "Marigold appears only on things you can act on, plus the browser's own interaction affordances (focus ring, text selection). If a marigold element cannot be clicked, tabbed to or selected, it is a bug.",
+        "section": "colors"
+      },
+      {
+        "name": "The Foil Is Material Rule",
+        "body": "Foil is a printed finish: script, rules, frames, bevels, labels. It can sit under a quiet link as its underline, but the link turns marigold on hover. Foil never fills a button.",
+        "section": "colors"
+      },
+      {
+        "name": "The Small Foil Rule",
+        "body": "For foil text under about 1.2rem on raspberry, use foil-text, not foil.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Voices Rule",
+        "body": "Script is for names and romantic asides, the serif is for anything you read, and condensed caps are for production labels. A voice never takes another voice's job.",
+        "section": "typography"
+      },
+      {
+        "name": "The Script Never Stands Alone Rule",
+        "body": "Outside the cover title and the wordmarks, Ballet only appears as a lead-in fused to a Literata heading. It never sets a whole sentence.",
+        "section": "typography"
+      },
+      {
+        "name": "The Soft Paper Rule",
+        "body": "Every shadow is blurred, negatively spread and dark-tinted. A zero-blur offset shadow does not exist in this world.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Bevel Is Rings Rule",
+        "body": "Foil edges are drawn with 0-blur inset spread rings (stock-colored gap, then a translucent foil hairline), never with a gradient or blur.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** alternate raspberry and aubergine stocks section by section, and end on the ink spine.",
+      "**Do** put marigold on every primary action (pill buttons, action links, the flash, hover states), and only there.",
+      "**Do** use foil-text (#f8d58a) for small foil text on raspberry. Keep foil (#f0c46a) on raspberry for large script and non-text marks.",
+      "**Do** set script lead-ins inside Literata headings at 0.78em to 1.3em with letter-spacing reset to 0.",
+      "**Do** condense Archivo caps with font-stretch (78 to 88%) and track them open (0.08 to 0.2em).",
+      "**Do** draw foil edges as stacked inset spread rings and cast blurred, negatively spread, aubergine-tinted shadows under printed objects.",
+      "**Do** give every scroll-driven effect a static fallback that works on its own, as the static fan does for the hinge.",
+      "**Do** honor reduced motion: no hinge, no transitions, no nudge animation."
+    ],
+    "donts": [
+      "**Don't** use cream or ivory for text or backgrounds. Text is blush (#fff0f5).",
+      "**Don't** use marigold for decoration, dividers, tags or headings that cannot be acted on.",
+      "**Don't** fill a button with foil or make a foil-only element look clickable.",
+      "**Don't** use zero-blur offset shadows or flat sticker-style drop blocks.",
+      "**Don't** round rectangles beyond 3px. Pills are for buttons and chips only, and the arch is the only large curve.",
+      "**Don't** set body copy or full sentences in Ballet.",
+      "**Don't** use icon fonts or glyph icons. Icons are 2px-stroke inline SVG at 1.15em that inherit currentColor."
+    ]
+  }
+}

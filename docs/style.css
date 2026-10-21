@@ -416,7 +416,7 @@ a { color: inherit; }
 .barcode { width: 118px; height: 44px; fill: var(--blush); }
 .spine__mark { margin: 0; font: 400 2.1rem/1 var(--script); color: var(--foil); }
 .spine__links { margin: 0; display: flex; gap: 22px; }
-.spine__links a { font: 700 .8rem/1 var(--label); text-transform: uppercase; letter-spacing: .14em; text-decoration: none; color: var(--blush); }
+.spine__links a { font: 700 .8rem/1 var(--label); font-stretch: 84%; text-transform: uppercase; letter-spacing: .14em; text-decoration: none; color: var(--blush); }
 .spine__links a:hover { color: var(--marigold); }
 .spine__fine { grid-column: 1 / -1; margin: 6px 0 0; font-size: .85rem; color: var(--mauve); }
 
