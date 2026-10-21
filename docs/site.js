@@ -47,10 +47,11 @@
     const wide = innerWidth > 860;
     const copyBottom = interior.querySelector('.interior__copy').getBoundingClientRect().bottom - c.top;
     const o = wide
-      ? { x: w * 0.38, y: h * 0.1, w: w * 0.55, h: h * 0.8 }
+      ? { x: w * 0.4, y: h * 0.1, w: w * 0.57, h: h * 0.8 }
       : { x: w * 0.04, y: copyBottom + 12, w: w * 0.92, h: h - copyBottom - 24 };
     frame.style.setProperty('--card', `${wide ? Math.min(iw * 0.5, ih * 0.64) : Math.min(w * 0.32, ih * 0.64)}px`);
-    frame.style.setProperty('--grow', wide ? '0.9' : '0');
+    frame.style.setProperty('--card-open', `${wide ? Math.min(o.w / 4.2, o.h * 0.6) : w * 0.235}px`);
+    frame.style.setProperty('--grow', wide ? '1.7' : '1.2');
     frame.style.setProperty('--ox', `${o.x}px`);
     frame.style.setProperty('--oy', `${o.y}px`);
     frame.style.setProperty('--ow', `${o.w}px`);

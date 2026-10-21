@@ -24,6 +24,12 @@ const fan = books.map((b, i) => {
         </a>`;
 }).join('\n');
 
+// Decorative copy of the fan for the cover's window when the hinge is off.
+const fanStatic = books.map((b, i) => {
+  const t = books.length === 1 ? 0 : i / (books.length - 1) - 0.5;
+  return `            <span class="fan__card" style="--t:${t.toFixed(3)};--a:${Math.abs(t).toFixed(3)}"><img src="img/books/${esc(b.img)}" alt="" width="512" height="640"></span>`;
+}).join('\n');
+
 const list = books.map((b) => {
   const quote = b.quote
     ? `\n          <blockquote class="book__quote"><p>${esc(b.quote)}</p></blockquote>`
@@ -64,7 +70,7 @@ for (let i = 0; i < 46; i++) {
 const out = tpl
   .replace('{{FAN}}', fan)
   .replace('{{LIST}}', list)
-  .replace('{{FEATURE_IMG}}', esc(books[0].img))
+  .replace('{{FAN_STATIC}}', fanStatic)
   .replace('{{UPDATED}}', esc(updated))
   .replace('{{BURST}}', burst)
   .replace('{{BARCODE}}', bars.join(''))

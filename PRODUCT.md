@@ -66,9 +66,15 @@ including narrator-level audiobook (ALC) reviews. Her stated focus: romance
 
 ## Evidence on Hand
 
-- `docs/img/books/*.jpg`: her own promo graphics for the 6 latest books (from IG).
+- `docs/img/books/*.jpg`: promo graphics from her 6 latest posts (who designs them is unconfirmed).
 - `docs/img/avatar.jpg`: her 150px IG avatar. A larger headshot is still needed.
 - Review text: her IG captions (excerpted with links back to each post).
+- Older posts cited as "Recently:" in services (from the same 2026-10-20 scrape):
+  Snow Strings Attached by Gia Stevens (ARC review, reel/Dec-QgtTETH), Hometown Halftime
+  by Jocelyn Jacobs (ARC review, reel/DeaNI-lzXEx), Watershed by Carrie Ann Ryan (cover
+  reveal, reel/DedHi1ITdM0).
+- About and services copy is written in her voice by Claude and needs her review
+  before launch (hence "Every review is mine", not "every word").
 - No testimonials, client list, follower stats or prices. Do not invent any.
 
 ## Product Principles
